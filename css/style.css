@@ -1,0 +1,235 @@
+body {
+    background: black;
+}
+
+.container {
+    width: 1445px;
+    margin: 0 auto;
+}
+
+h1 {
+
+    color: white;
+
+    font-size: 90px;
+    margin-top: 199px;
+}
+
+.box {
+    background: #1C04C4;
+    width: 965px;
+    position: absolute;
+    height: 12px;
+    margin: 0;
+    transition: 0.5s all ease;
+    margin-top: 126.5px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Scada', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.button1 {
+    font-family: 'Scada', sans-serif;
+    color: white;
+    background: #597DA3;
+    padding: 23px;
+    23px;
+    padding-left: 91px;
+    padding-right: 91px;
+    border-radius: 19px;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+
+}
+
+.button2 {
+    font-family: 'Scada', sans-serif;
+    color: white;
+    background: linear-gradient(to left, #B803B3, #C40254, #F0A04A);
+    padding: 23px;
+    23px;
+    padding-left: 91px;
+    padding-right: 91px;
+    border-radius: 19px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+
+}
+
+.button1:hover {
+    background: #1A7EE8;
+
+}
+
+.button2:hover {
+    background: linear-gradient(to left, #FF00F8, #FF006C, #F98100);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 80px;
+}
+
+img {
+    position: absolute;
+    display: block;
+    margin-top: -750px;
+margin-right: 100px;
+    z-index: -3
+}
+
+@media screen and (max-width: 1366px) {
+    h1 {
+
+        color: white;
+        font-size: 69px;
+        margin-top: 182px;
+        margin-left: 130px;
+    }
+
+    .box {
+        background: #1C04C4;
+        width: 965px;
+        position: absolute;
+        height: 12px;
+        margin: 0;
+        transition: 0.5s all ease;
+        margin-top: 109.5px;
+    }
+
+    .button1 {
+        font-family: 'Scada', sans-serif;
+        color: white;
+        background: #597DA3;
+   padding: 26px;
+        26px;
+        padding-left: 73px;
+        padding-right: 73px;
+        border-radius: 73px;
+        border-radius: 73px;
+        text-transform: uppercase;
+        transition: 0.5s all ease;
+
+    }
+
+    .button2 {
+        font-family: 'Scada', sans-serif;
+        color: white;
+        background: linear-gradient(to left, #B803B3, #C40254, #F0A04A);
+        padding: 26px;
+        26px;
+        padding-left: 73px;
+        padding-right: 73px;
+        border-radius: 73px;
+        margin-left: 39px;
+        text-transform: uppercase;
+        transition: 0.5s all ease;
+
+    }
+
+    .button1:hover {
+        background: #1A7EE8;
+
+    }
+
+    .button2:hover {
+        background: linear-gradient(to left, #FF00F8, #FF006C, #F98100);
+
+    }
+
+    h2 {
+    color: white;
+    font-family: 'Scada', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+        margin-left: 130px;
+}
+.button {
+    margin-top: 80px;
+    margin-left: 130px;
+}
+}
+@media screen and (max-width: 600px) {
+    h1 {
+
+        color: white;
+        font-size: 37px;
+        margin-top: 135px;
+        margin-left: 41px;
+    }
+
+    .box {
+        background: #1C04C4;
+        width: 965px;
+        position: absolute;
+        height: 12px;
+        margin: 0;
+        transition: 0.5s all ease;
+        margin-top: 58.5px;
+    }
+
+    .button1 {
+        font-family: 'Scada', sans-serif;
+        color: white;
+        background: #597DA3;
+   padding: 30px;
+        30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 73px;
+        border-radius: 73px;
+        text-transform: uppercase;
+        transition: 0.5s all ease;
+
+    }
+
+    .button2 {
+        font-family: 'Scada', sans-serif;
+        color: white;
+        background: linear-gradient(to left, #B803B3, #C40254, #F0A04A);
+          padding: 30px;
+        30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        text-transform: uppercase;
+        transition: 0.5s all ease;
+        position: absolute;
+        margin-top: 63px;
+margin-left:-265px;
+
+    }
+
+    .button1:hover {
+        background: #1A7EE8;
+
+    }
+
+    .button2:hover {
+        background: linear-gradient(to left, #FF00F8, #FF006C, #F98100);
+
+    }
+
+    h2 {
+    color: white;
+    font-family: 'Scada', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 41px;
+        margin-top: 40px;
+}
+.button {
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+
+}
